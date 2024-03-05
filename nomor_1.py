@@ -1,5 +1,5 @@
 def cek_angka(a, b, c) : 
-    if (a != b != c) and (a + b == c or a + c == b or b + c == a) :
+    if (a != b and a != c and b != c) and (a + b == c or a + c == b or b + c == a) :
         return "True"
     else :
         return "False"
